@@ -13,7 +13,7 @@ export const auroraPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'trisolaris-usdc-usdt',
+    oracleId: 'trisolaris-usdt-usdc',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
