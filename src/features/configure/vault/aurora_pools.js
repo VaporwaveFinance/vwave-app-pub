@@ -8,8 +8,8 @@ export const auroraPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'VWAVE-USDT-USDC-TRILP',
-    earnedTokenAddress: '0x0Be510837509a13211793A5342E73889Da961a74', //  vault
-    earnContractAddress: '0x0Be510837509a13211793A5342E73889Da961a74', //  vault
+    earnedTokenAddress: '0xEDd8315b6d16B81d835e7070669F74B38e596025', //  vault
+    earnContractAddress: '0xEDd8315b6d16B81d835e7070669F74B38e596025', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -32,7 +32,42 @@ export const auroraPools = [
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
     buyTokenUrl:
-      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://trisolaris.io/#/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+  },
+  {
+    id: 'trisolaris-usdt-usdc',
+    name: 'USDT-USDC LP RETIRED',
+    token: 'USDT-USDC LP RETIRED',
+    tokenDescription: 'TriSolaris',
+    tokenAddress: '0x2fe064B6c7D274082aa5d2624709bC9AE7D16C77', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'VWAVE-USDT-USDC-TRILP',
+    earnedTokenAddress: '0x0Be510837509a13211793A5342E73889Da961a74', //  vault
+    earnContractAddress: '0x0Be510837509a13211793A5342E73889Da961a74', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisolaris-usdt-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'eol',
+    platform: 'TriSolaris',
+    assets: ['USDT', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+    buyTokenUrl:
+      'https://trisolaris.io/#/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
   },
   // {
   //   id: 'trisolaris-near-wbtc',
@@ -65,9 +100,9 @@ export const auroraPools = [
   //   stratType: 'StratLP',
   //   withdrawalFee: '0.1%',
   //   addLiquidityUrl:
-  //     'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+  //     'https://www.trisolaris.io/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
   //   buyTokenUrl:
-  //     'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+  //     'https://trisolaris.io/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
   // },
   {
     id: 'trisolaris-usdt-near',
@@ -100,9 +135,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://www.trisolaris.io/#/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://trisolaris.io/#/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
     id: 'trisolaris-usdc-near',
@@ -135,9 +170,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
     id: 'trisolaris-aurora-weth',
@@ -170,9 +205,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://www.trisolaris.io/#/add/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
     buyTokenUrl:
-      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://trisolaris.io/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
   },
   {
     id: 'trisolaris-near-weth',
@@ -205,9 +240,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://www.trisolaris.io/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
     buyTokenUrl:
-      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://trisolaris.io/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
   },
   {
     id: 'trisolaris-near-tri',
@@ -240,8 +275,8 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://www.trisolaris.io/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xFa94348467f64D5A457F75F8bc40495D33c65aBB',
     buyTokenUrl:
-      'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+      'https://trisolaris.io/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xFa94348467f64D5A457F75F8bc40495D33c65aBB',
   },
 ];
