@@ -1,8 +1,8 @@
 export const auroraPools = [
   {
     id: 'trisolaris-usdt-usdc',
-    name: 'USDT-USDC LP',
-    token: 'USDT-USDC LP',
+    name: 'USDT-USDC LP RETIRED',
+    token: 'USDT-USDC LP RETIRED',
     tokenDescription: 'TriSolaris',
     tokenAddress: '0x2fe064B6c7D274082aa5d2624709bC9AE7D16C77', //  wantToken
     tokenDecimals: 18,
@@ -16,7 +16,7 @@ export const auroraPools = [
     oracleId: 'trisolaris-usdt-usdc',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'TriSolaris',
     assets: ['USDT', 'USDC'],
     risks: [
@@ -36,8 +36,8 @@ export const auroraPools = [
   },
   {
     id: 'trisolaris-usdt-usdc',
-    name: 'USDT-USDC LP RETIRED',
-    token: 'USDT-USDC LP RETIRED',
+    name: 'USDT-USDC LP',
+    token: 'USDT-USDC LP',
     tokenDescription: 'TriSolaris',
     tokenAddress: '0x2fe064B6c7D274082aa5d2624709bC9AE7D16C77', //  wantToken
     tokenDecimals: 18,
@@ -51,7 +51,7 @@ export const auroraPools = [
     oracleId: 'trisolaris-usdt-usdc',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'eol',
+    status: 'active',
     platform: 'TriSolaris',
     assets: ['USDT', 'USDC'],
     risks: [
