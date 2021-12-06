@@ -7,7 +7,7 @@ export const auroraPools = [
     tokenAddress: '0x2fe064B6c7D274082aa5d2624709bC9AE7D16C77', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'VWAVE-USDT-USDC-TRILP',
+    earnedToken: 'VWAVE-TRI-USDT-USDC',
     earnedTokenAddress: '0xEDd8315b6d16B81d835e7070669F74B38e596025', //  vault
     earnContractAddress: '0xEDd8315b6d16B81d835e7070669F74B38e596025', //  vault
     pricePerFullShare: 1,
@@ -278,5 +278,40 @@ export const auroraPools = [
       'https://www.trisolaris.io/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xFa94348467f64D5A457F75F8bc40495D33c65aBB',
     buyTokenUrl:
       'https://trisolaris.io/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xFa94348467f64D5A457F75F8bc40495D33c65aBB',
+  },
+  {
+    id: 'nearpad-usdt-usdc',
+    name: 'USDT-USDC NearPad LP',
+    token: 'USDT-USDC NearPad LP',
+    tokenDescription: 'NearPad',
+    tokenAddress: '0x9f31f2cFd64cEbFe021f0102E17c7Ae1c76CCb6b', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'VWAVE-USDT-USDC-PADLP',
+    earnedTokenAddress: '0x76fE2E1a7ed4106c0cfdE889B6FA3CB2D4b6cF73', //  vault
+    earnContractAddress: '0x76fE2E1a7ed4106c0cfdE889B6FA3CB2D4b6cF73', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'nearpad-usdt-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'NearPad',
+    assets: ['USDT', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://dex.nearpad.io/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+    buyTokenUrl:
+      'https://dex.nearpad.io/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
   },
 ];
