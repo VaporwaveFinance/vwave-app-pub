@@ -383,7 +383,7 @@ export const auroraPools = [
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'wannaswap-usdt-usdc',
+    id: 'wannaswap-usdc-usdt',
     name: 'USDT-USDC WLP',
     token: 'USDT-USDC WLP',
     tokenDescription: 'WannaSwap',
@@ -396,7 +396,7 @@ export const auroraPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'wannaswap-usdt-usdc',
+    oracleId: 'wannaswap-usdc-usdt',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
