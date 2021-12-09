@@ -365,8 +365,43 @@ export const auroraPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'NearPad',
+    platform: 'WannaSwap',
     assets: ['WANNA', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://wannaswap.finance/exchange/add/0x7faA64Faf54750a2E3eE621166635fEAF406Ab22/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'wannaswap-usdt-usdc',
+    name: 'USDT-USDC WLP',
+    token: 'USDT-USDC WLP',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0x3502eaC6Fa27bEebDC5cd3615B7CB0784B0Ce48f', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-USDT-USDC-Wanna',
+    earnedTokenAddress: '0x2d2A32e2FEfb449591eb5eb61De81C87ad0143d0', //  vault
+    earnContractAddress: '0x2d2A32e2FEfb449591eb5eb61De81C87ad0143d0', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wannaswap-usdt-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'WannaSwap',
+    assets: ['USDT', 'USDC'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
