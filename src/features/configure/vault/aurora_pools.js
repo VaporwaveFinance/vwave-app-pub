@@ -1,4 +1,37 @@
 export const auroraPools = [
+    // {
+  //   id: 'weth-vwave-maxi',
+  //   logo: 'single-assets/VWAVE.png',
+  //   name: 'VWAVE Maxi',
+  //   token: 'VWAVE',
+  //   tokenDescription: 'Vaporwave.Farm',
+  //   tokenAddress: '0x2451dB68DeD81900C4F16ae1af597E9658689734',
+  //   tokenDecimals: 18,
+  //   tokenDescriptionUrl: '#',
+  //   earnedToken: 'vaporWethVWAVE',
+  //   earnedTokenAddress: '0xbF07093ccd6adFC3dEB259C557b61E94c1F66945',
+  //   earnContractAddress: '0xbF07093ccd6adFC3dEB259C557b61E94c1F66945',
+  //   pricePerFullShare: 1,
+  //   tvl: 0,
+  //   oracle: 'tokens',
+  //   oracleId: 'VWAVE',
+  //   oraclePrice: 0,
+  //   depositsPaused: false,
+  //   status: 'active',
+  //   platform: 'Vaporwave.farm',
+  //   assets: ['VWAVE'],
+  //   risks: [
+  //     'COMPLEXITY_LOW',
+  //     'BATTLE_TESTED',
+  //     'IL_NONE',
+  //     'MCAP_MEDIUM',
+  //     'AUDIT',
+  //     'CONTRACTS_VERIFIED',
+  //   ],
+  //   stratType: 'Maxi',
+  //   withdrawalFee: '0.05%',
+  //   buyTokenUrl: 'https://www.trisolaris.io/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0x2451dB68DeD81900C4F16ae1af597E9658689734',
+  // },
   {
     id: 'trisolaris-usdt-usdc',
     name: 'USDT-USDC LP RETIRED',
@@ -279,26 +312,61 @@ export const auroraPools = [
     buyTokenUrl:
       'https://trisolaris.io/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xFa94348467f64D5A457F75F8bc40495D33c65aBB',
   },
+  // {
+  //   id: 'nearpad-usdt-usdc',
+  //   name: 'USDT-USDC NearPad LP',
+  //   token: 'USDT-USDC NearPad LP',
+  //   tokenDescription: 'NearPad',
+  //   tokenAddress: '0x9f31f2cFd64cEbFe021f0102E17c7Ae1c76CCb6b', //  wantToken
+  //   tokenDecimals: 18,
+  //   tokenDescriptionUrl: '#',
+  //   earnedToken: 'VWAVE-USDT-USDC-PADLP',
+  //   earnedTokenAddress: '0x76fE2E1a7ed4106c0cfdE889B6FA3CB2D4b6cF73', //  vault
+  //   earnContractAddress: '0x76fE2E1a7ed4106c0cfdE889B6FA3CB2D4b6cF73', //  vault
+  //   pricePerFullShare: 1,
+  //   tvl: 0,
+  //   oracle: 'lps',
+  //   oracleId: 'nearpad-usdt-usdc',
+  //   oraclePrice: 0,
+  //   depositsPaused: false,
+  //   status: 'active',
+  //   platform: 'NearPad',
+  //   assets: ['USDT', 'USDC'],
+  //   risks: [
+  //     'COMPLEXITY_LOW',
+  //     'BATTLE_TESTED',
+  //     'IL_NONE',
+  //     'MCAP_MEDIUM',
+  //     'AUDIT',
+  //     'CONTRACTS_VERIFIED',
+  //   ],
+  //   stratType: 'StratLP',
+  //   withdrawalFee: '0.1%',
+  //   addLiquidityUrl:
+  //     'https://dex.nearpad.io/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+  //   buyTokenUrl:
+  //     'https://dex.nearpad.io/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+  // },
   {
-    id: 'nearpad-usdt-usdc',
-    name: 'USDT-USDC NearPad LP',
-    token: 'USDT-USDC NearPad LP',
-    tokenDescription: 'NearPad',
-    tokenAddress: '0x9f31f2cFd64cEbFe021f0102E17c7Ae1c76CCb6b', //  wantToken
+    id: 'wannaswap-wanna-near',
+    name: 'Wanna-Near WLP',
+    token: 'Wanna-Near WLP',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0xbf9Eef63139b67fd0ABf22bD5504ACB0519a4212', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'VWAVE-USDT-USDC-PADLP',
-    earnedTokenAddress: '0x76fE2E1a7ed4106c0cfdE889B6FA3CB2D4b6cF73', //  vault
-    earnContractAddress: '0x76fE2E1a7ed4106c0cfdE889B6FA3CB2D4b6cF73', //  vault
+    earnedToken: 'vapor-Wanna-Near-Wanna',
+    earnedTokenAddress: '0xCEd467680B5f0920118EB8B2712819B9b44423e1', //  vault
+    earnContractAddress: '0xCEd467680B5f0920118EB8B2712819B9b44423e1', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'nearpad-usdt-usdc',
+    oracleId: 'wannaswap-wanna-near',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
     platform: 'NearPad',
-    assets: ['USDT', 'USDC'],
+    assets: ['WANNA', 'NEAR'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
@@ -310,8 +378,8 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://dex.nearpad.io/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+      'https://wannaswap.finance/exchange/add/0x7faA64Faf54750a2E3eE621166635fEAF406Ab22/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://dex.nearpad.io/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
 ];
