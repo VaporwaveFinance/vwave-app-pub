@@ -805,41 +805,41 @@ export const auroraPools = [
       'https://wannaswap.finance/exchange/swap?inputCurrency=0xe3520349f477a5f6eb06107066048508498a291b&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   //  API price error. LP apy error. TO DO!
-  // {
-  //   id: 'nearpad-near-frax',
-  //   name: 'NEAR-FRAX NearPad LP v3',
-  //   token: 'NEAR-FRAX NearPad LP',
-  //   tokenDescription: 'NearPad',
-  //   tokenAddress: '0xac187A18f9DaB50506fc8111aa7E86F5F55DefE9', //  wantToken
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'vapor-NEAR-FRAX-padV3',
-  //   earnedTokenAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
-  //   earnContractAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'nearpad-near-frax',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'NearPad',
-  //   assets: ['NEAR', 'FRAX'],
-  //   risks: [
-  //     'COMPLEXITY_LOW',
-  //     'BATTLE_TESTED',
-  //     'IL_NONE',
-  //     'MCAP_MEDIUM',
-  //     'AUDIT',
-  //     'CONTRACTS_VERIFIED',
-  //   ],
-  //   stratType: 'StratLP',
-  //   withdrawalFee: '0.1%',
-  //   addLiquidityUrl:
-  //     'https://dex.nearpad.io/add/0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  //   buyTokenUrl:
-  //     'https://dex.nearpad.io/swap?inputCurrency=0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  // },
+  {
+    id: 'nearpad-near-frax',
+    name: 'NEAR-FRAX NearPad LP v3',
+    token: 'NEAR-FRAX NearPad LP',
+    tokenDescription: 'NearPad',
+    tokenAddress: '0xac187A18f9DaB50506fc8111aa7E86F5F55DefE9', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-NEAR-FRAX-padV3',
+    earnedTokenAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
+    earnContractAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'nearpad-near-frax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'NearPad',
+    assets: ['NEAR', 'FRAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://dex.nearpad.io/add/0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://dex.nearpad.io/swap?inputCurrency=0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
   {
     id: 'nearpad-usdt-usdc',
     name: 'USDT-USDC NearPad LP v3',
