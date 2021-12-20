@@ -33,7 +33,7 @@ export const auroraPools = [
   //   buyTokenUrl: 'https://www.trisolaris.io/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0x2451dB68DeD81900C4F16ae1af597E9658689734',
   // },
   {
-    id: 'trisolaris-usdt-usdc',
+    id: 'trisolaris-usdt-usdc retired',
     name: 'USDT-USDC LP',
     token: 'USDT-USDC LP',
     tokenDescription: 'TriSolaris',
@@ -103,7 +103,7 @@ export const auroraPools = [
   //     'https://trisolaris.io/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
   // },
   {
-    id: 'trisolaris-usdt-near',
+    id: 'trisolaris-usdt-near retired',
     name: 'USDT-NEAR LP',
     token: 'USDT-NEAR LP',
     tokenDescription: 'TriSolaris',
@@ -138,7 +138,7 @@ export const auroraPools = [
       'https://trisolaris.io/#/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'trisolaris-usdc-near',
+    id: 'trisolaris-usdc-near retired',
     name: 'USDC-NEAR LP',
     token: 'USDC-NEAR LP',
     tokenDescription: 'TriSolaris',
@@ -173,7 +173,7 @@ export const auroraPools = [
       'https://trisolaris.io/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'trisolaris-aurora-weth',
+    id: 'trisolaris-aurora-weth retired',
     name: 'AURORA-WETH LP',
     token: 'AURORA-WETH LP',
     tokenDescription: 'TriSolaris',
@@ -208,7 +208,7 @@ export const auroraPools = [
       'https://trisolaris.io/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
   },
   {
-    id: 'trisolaris-near-weth',
+    id: 'trisolaris-near-weth retired',
     name: 'NEAR-WETH LP',
     token: 'NEAR-WETH LP',
     tokenDescription: 'TriSolaris',
@@ -243,7 +243,7 @@ export const auroraPools = [
       'https://trisolaris.io/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
   },
   {
-    id: 'trisolaris-near-tri',
+    id: 'trisolaris-near-tri retired',
     name: 'NEAR-TRI LP',
     token: 'NEAR-TRI LP',
     tokenDescription: 'TriSolaris',
@@ -279,7 +279,7 @@ export const auroraPools = [
   },
 
   {
-    id: 'wannaswap-wanna-near',
+    id: 'wannaswap-wanna-near retired',
     name: 'Wanna-Near WLP',
     token: 'Wanna-Near WLP',
     tokenDescription: 'WannaSwap',
@@ -314,7 +314,7 @@ export const auroraPools = [
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'wannaswap-usdc-usdt',
+    id: 'wannaswap-usdc-usdt retired',
     name: 'USDT-USDC WLP',
     token: 'USDT-USDC WLP',
     tokenDescription: 'WannaSwap',
@@ -349,7 +349,7 @@ export const auroraPools = [
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'wannaswap-wbtc-near',
+    id: 'wannaswap-wbtc-near retired',
     name: 'WBTC-WNEAR WLP',
     token: 'WBTC-WNEAR WLP',
     tokenDescription: 'WannaSwap',
@@ -804,27 +804,26 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0xe3520349f477a5f6eb06107066048508498a291b&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  //  API price error. LP apy error. TO DO!
   {
-    id: 'nearpad-near-frax',
-    name: 'NEAR-FRAX NearPad LP v3',
-    token: 'NEAR-FRAX NearPad LP',
-    tokenDescription: 'NearPad',
-    tokenAddress: '0xac187A18f9DaB50506fc8111aa7E86F5F55DefE9', //  wantToken
+    id: 'wannaswap-usdt-near',
+    name: 'USDT-WNEAR WLP v3',
+    token: 'USDT-WNEAR WLP',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0x2e02Bea8e9118f7d2ccadA1d402286Cc6d54bd67', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-NEAR-FRAX-padV3',
-    earnedTokenAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
-    earnContractAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
+    earnedToken: 'vapor-USDT-NEAR-wannaV3',
+    earnedTokenAddress: '0x1f8eC3b973d68108Dc490C3CFf646532DD7A0096', //  vault
+    earnContractAddress: '0x1f8eC3b973d68108Dc490C3CFf646532DD7A0096', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'nearpad-near-frax',
+    oracleId: 'wannaswap-usdt-near',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'NearPad',
-    assets: ['NEAR', 'FRAX'],
+    platform: 'WannaSwap',
+    assets: ['USDT', 'NEAR'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
@@ -836,10 +835,117 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://dex.nearpad.io/add/0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://wannaswap.finance/exchange/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://dex.nearpad.io/swap?inputCurrency=0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
+  {
+    id: 'wannaswap-usdc-near',
+    name: 'USDC-WNEAR WLP v3',
+    token: 'USDC-WNEAR WLP',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0xBf560771B6002a58477EFBCDD6774A5a1947587B', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-USDC-NEAR-wannaV3',
+    earnedTokenAddress: '0xE93066e1931BE68a600e5141FDC4638734C5d123', //  vault
+    earnContractAddress: '0xE93066e1931BE68a600e5141FDC4638734C5d123', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wannaswap-usdc-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'WannaSwap',
+    assets: ['USDC', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://wannaswap.finance/exchange/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'wannaswap-weth-near',
+    name: 'WETH-WNEAR WLP v3',
+    token: 'WETH-WNEAR WLP',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0x256d03607eeE0156b8A2aB84da1D5B283219Fe97', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WETH-NEAR-wannaV3',
+    earnedTokenAddress: '0x2e5Cb9100dF7F24092eb900032490E4AA397FA2b', //  vault
+    earnContractAddress: '0x2e5Cb9100dF7F24092eb900032490E4AA397FA2b', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wannaswap-weth-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'WannaSwap',
+    assets: ['WETH', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://wannaswap.finance/exchange/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+
+
+  // {
+  //   id: 'nearpad-near-frax',
+  //   name: 'NEAR-FRAX NearPad LP v3',
+  //   token: 'NEAR-FRAX NearPad LP ',
+  //   tokenDescription: 'NearPad',
+  //   tokenAddress: '0xac187A18f9DaB50506fc8111aa7E86F5F55DefE9', //  wantToken
+  //   tokenDecimals: 18,
+  //   tokenDescriptionUrl: '#',
+  //   earnedToken: 'vapor-NEAR-FRAX-padV3',
+  //   earnedTokenAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
+  //   earnContractAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
+  //   pricePerFullShare: 1,
+  //   tvl: 0,
+  //   oracle: 'lps',
+  //   oracleId: 'nearpad-near-frax',
+  //   oraclePrice: 0,
+  //   depositsPaused: false,
+  //   status: 'eol',
+  //   platform: 'NearPad',
+  //   assets: ['NEAR', 'FRAX'],
+  //   risks: [
+  //     'COMPLEXITY_LOW',
+  //     'BATTLE_TESTED',
+  //     'IL_NONE',
+  //     'MCAP_MEDIUM',
+  //     'AUDIT',
+  //     'CONTRACTS_VERIFIED',
+  //   ],
+  //   stratType: 'StratLP',
+  //   withdrawalFee: '0.1%',
+  //   addLiquidityUrl:
+  //     'https://dex.nearpad.io/add/0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  //   buyTokenUrl:
+  //     'https://dex.nearpad.io/swap?inputCurrency=0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  // },
   {
     id: 'nearpad-usdt-usdc',
     name: 'USDT-USDC NearPad LP v3',
