@@ -909,43 +909,42 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-
-
-  // {
-  //   id: 'nearpad-near-frax',
-  //   name: 'NEAR-FRAX NearPad LP v3',
-  //   token: 'NEAR-FRAX NearPad LP ',
-  //   tokenDescription: 'NearPad',
-  //   tokenAddress: '0xac187A18f9DaB50506fc8111aa7E86F5F55DefE9', //  wantToken
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'vapor-NEAR-FRAX-padV3',
-  //   earnedTokenAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
-  //   earnContractAddress: '0x9542F83473826c98839D28C325Ed66C7F507655e', //  vault
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'nearpad-near-frax',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'eol',
-  //   platform: 'NearPad',
-  //   assets: ['NEAR', 'FRAX'],
-  //   risks: [
-  //     'COMPLEXITY_LOW',
-  //     'BATTLE_TESTED',
-  //     'IL_NONE',
-  //     'MCAP_MEDIUM',
-  //     'AUDIT',
-  //     'CONTRACTS_VERIFIED',
-  //   ],
-  //   stratType: 'StratLP',
-  //   withdrawalFee: '0.1%',
-  //   addLiquidityUrl:
-  //     'https://dex.nearpad.io/add/0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  //   buyTokenUrl:
-  //     'https://dex.nearpad.io/swap?inputCurrency=0xDA2585430fEf327aD8ee44Af8F1f989a2A91A3d2&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  // },
+  {
+    id: 'wannaswap-wannax',
+    logo: 'single-assets/WANNA.png',
+    name: 'WANNAX',
+    token: 'WANNAX',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WANNAX-wannaV3',
+    earnedTokenAddress: '0x23f5E21a65cb8c858e263a892Dd2327Ff337932F', //  vault
+    earnContractAddress: '0x23f5E21a65cb8c858e263a892Dd2327Ff337932F', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'WANNAX',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'WannaSwap',
+    assets: ['WANNAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'SingleStake',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://wannaswap.finance/stake',
+    buyTokenUrl:
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
   {
     id: 'nearpad-usdt-usdc',
     name: 'USDT-USDC NearPad LP v3',
@@ -1015,5 +1014,40 @@ export const auroraPools = [
       'https://dex.nearpad.io/add/0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
       'https://dex.nearpad.io/swap?inputCurrency=0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'trisolaris-aurora-weth',
+    name: 'AURORA-WETH TLP v3',
+    token: 'AURORA-WETH LP',
+    tokenDescription: 'TriSolaris',
+    tokenAddress: '0x03B666f3488a7992b2385B12dF7f35156d7b29cD', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-AURORA-WETH-triV3',
+    earnedTokenAddress: '0xDc2fC1Ad35f9FB2872d7550654950fA8bc293d61', //  vault
+    earnContractAddress: '0xDc2fC1Ad35f9FB2872d7550654950fA8bc293d61', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisolaris-aurora-weth',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'TriSolaris',
+    assets: ['AURORA', 'WETH'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://trisolaris.io/#/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
 ];
