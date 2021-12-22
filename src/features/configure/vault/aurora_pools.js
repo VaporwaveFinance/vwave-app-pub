@@ -910,7 +910,7 @@ export const auroraPools = [
       'https://wannaswap.finance/exchange/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'wannaswap-wannax',
+    id: 'wanna-wannax',
     logo: 'single-assets/WANNA.png',
     name: 'WANNAX',
     token: 'WANNAX',
