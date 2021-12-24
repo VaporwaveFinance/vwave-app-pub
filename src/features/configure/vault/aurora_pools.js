@@ -924,7 +924,7 @@ export const auroraPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'WANNAx',
+    oracleId: 'WANNAX',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
