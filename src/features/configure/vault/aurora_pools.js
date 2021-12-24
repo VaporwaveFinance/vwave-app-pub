@@ -909,42 +909,42 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  // {
-  //   id: 'wanna-wannax',
-  //   logo: 'single-assets/WANNA.png',
-  //   name: 'WANNAX',
-  //   token: 'WANNAX',
-  //   tokenDescription: 'WannaSwap',
-  //   tokenAddress: '0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B', //  wantToken
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'vapor-WANNAX-wannaV3',
-  //   earnedTokenAddress: '0x23f5E21a65cb8c858e263a892Dd2327Ff337932F', //  vault
-  //   earnContractAddress: '0x23f5E21a65cb8c858e263a892Dd2327Ff337932F', //  vault
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'tokens',
-  //   oracleId: 'WANNAx',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'WannaSwap',
-  //   assets: ['WANNAX'],
-  //   risks: [
-  //     'COMPLEXITY_LOW',
-  //     'BATTLE_TESTED',
-  //     'IL_NONE',
-  //     'MCAP_MEDIUM',
-  //     'AUDIT',
-  //     'CONTRACTS_VERIFIED',
-  //   ],
-  //   stratType: 'SingleStake',
-  //   withdrawalFee: '0.1%',
-  //   addLiquidityUrl:
-  //     'https://wannaswap.finance/stake',
-  //   buyTokenUrl:
-  //     'https://wannaswap.finance/exchange/swap?inputCurrency=0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  // },
+  {
+    id: 'wanna-wannax',
+    logo: 'single-assets/WANNA.png',
+    name: 'WANNAX',
+    token: 'WANNAX',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WANNAX-wannaV3',
+    earnedTokenAddress: '0x23f5E21a65cb8c858e263a892Dd2327Ff337932F', //  vault
+    earnContractAddress: '0x23f5E21a65cb8c858e263a892Dd2327Ff337932F', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'WANNAx',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'WannaSwap',
+    assets: ['WANNAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'SingleStake',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://wannaswap.finance/stake',
+    buyTokenUrl:
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
   {
     id: 'nearpad-usdt-usdc',
     name: 'USDT-USDC NearPad LP v3',
@@ -1225,5 +1225,5 @@ export const auroraPools = [
       'https://www.trisolaris.io/#/add/0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
       'https://trisolaris.io/swap?inputCurrency=0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  }
+  },
 ];
