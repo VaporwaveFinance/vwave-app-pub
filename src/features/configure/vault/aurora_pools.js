@@ -910,10 +910,10 @@ export const auroraPools = [
       'https://wannaswap.finance/exchange/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
-    id: 'wanna-wannax',
+    id: 'wanna-wanna',
     logo: 'single-assets/WANNA.png',
-    name: 'WANNAX',
-    token: 'WANNAX',
+    name: 'WANNA',
+    token: 'WANNA',
     tokenDescription: 'WannaSwap',
     tokenAddress: '0x5205c30bf2E37494F8cF77D2c19C6BA4d2778B9B', //  wantToken
     tokenDecimals: 18,
@@ -924,12 +924,12 @@ export const auroraPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'WANNAX',
+    oracleId: 'WANNA',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
     platform: 'WannaSwap',
-    assets: ['WANNAX'],
+    assets: ['WANNA'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
