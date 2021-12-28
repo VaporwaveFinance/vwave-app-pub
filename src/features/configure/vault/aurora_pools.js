@@ -1272,8 +1272,8 @@ export const auroraPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'vapor-AURORA-WANNA-wannaV3',
-    earnedTokenAddress: '0x6d62ED9470Eb0fcfe2C17493ac32B555be44E2Cd', //  vault
-    earnContractAddress: '0x6d62ED9470Eb0fcfe2C17493ac32B555be44E2Cd', //  vault
+    earnedTokenAddress: '0x83b732e9a1B6DaaFbB74915A7FAA0B0a4550F9d0', //  vault
+    earnContractAddress: '0x83b732e9a1B6DaaFbB74915A7FAA0B0a4550F9d0', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
