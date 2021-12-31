@@ -1333,43 +1333,7 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xFa94348467f64D5A457F75F8bc40495D33c65aBB&outputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f',
   },
-  // auroraswap
-  // {
-  //   id: 'auroraswap-near-usdc',
-  //   name: 'NEAR-USDC AURLP v3',
-  //   token: 'NEAR-USDC AURLP',
-  //   tokenDescription: 'Auroraswap',
-  //   tokenAddress: '0x480A68bA97d70495e80e11e05D59f6C659749F27', //  wantToken
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'vapor-NEAR-USDC-aurora',
-  //   earnedTokenAddress: '0xbC3f89e03BD4Be3E523e79Ab095Ce5cC3Ef6177b', //  vault
-  //   earnContractAddress: '0xbC3f89e03BD4Be3E523e79Ab095Ce5cC3Ef6177b', //  vault
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'auroraswap-near-usdc',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'Auroraswap',
-  //   assets: ['NEAR', 'USDC'],
-  //   risks: [
-  //     'COMPLEXITY_LOW',
-  //     'BATTLE_TESTED',
-  //     'IL_NONE',
-  //     'MCAP_MEDIUM',
-  //     'AUDIT',
-  //     'CONTRACTS_VERIFIED',
-  //   ],
-  //   stratType: 'StratLP',
-  //   withdrawalFee: '0.1%',
-  //   addLiquidityUrl:
-  //     'https://www.trisolaris.io/#/add/0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  //   buyTokenUrl:
-  //     'https://trisolaris.io/swap?inputCurrency=0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  // },
-  {
+    {
     id: 'nearpad-pad-rose',
     name: 'PAD-ROSE NearPad LP v3',
     token: 'PAD-ROSE NearPad LP',
