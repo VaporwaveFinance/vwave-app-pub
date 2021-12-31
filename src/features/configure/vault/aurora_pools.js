@@ -1191,7 +1191,7 @@ export const auroraPools = [
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
     buyTokenUrl:
-    'https://www.trisolaris.io/#/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
+      'https://www.trisolaris.io/#/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
   },
   {
     id: 'trisolaris-tri-aurora',
@@ -1298,9 +1298,42 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
   },
-
-
-  // auroraswap 
+  {
+    id: 'trisolaris-tri-usdt',
+    name: 'TRI-USDT TLP v3',
+    token: 'TRI-USDT TLP',
+    tokenDescription: 'TriSolaris',
+    tokenAddress: '0x61C9E05d1Cdb1b70856c7a2c53fA9c220830633c', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-TRI-USDT-miniTri',
+    earnedTokenAddress: '0xBd2AE4be1E6402C9955eF322F926E8dfBFcd8825', //  vault
+    earnContractAddress: '0xBd2AE4be1E6402C9955eF322F926E8dfBFcd8825', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisolaris-tri-usdt',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'TriSolaris',
+    assets: ['TRI', 'USDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0xFa94348467f64D5A457F75F8bc40495D33c65aBB/0x4988a896b1227218e4a686fde5eabdcabd91571f',
+    buyTokenUrl:
+      'https://www.trisolaris.io/#/swap?inputCurrency=0xFa94348467f64D5A457F75F8bc40495D33c65aBB&outputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f',
+  },
+  // auroraswap
   // {
   //   id: 'auroraswap-near-usdc',
   //   name: 'NEAR-USDC AURLP v3',
@@ -1336,4 +1369,111 @@ export const auroraPools = [
   //   buyTokenUrl:
   //     'https://trisolaris.io/swap?inputCurrency=0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   // },
+  {
+    id: 'nearpad-pad-rose',
+    name: 'PAD-ROSE NearPad LP v3',
+    token: 'PAD-ROSE NearPad LP',
+    tokenDescription: 'NearPad',
+    tokenAddress: '0xC6C3cc84EabD4643C382C988fA2830657fc70a6B', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-PAD-ROSE-padV3',
+    earnedTokenAddress: '0xdBBe7778b09F9568C7856036644FeCFfE46ad177', //  vault
+    earnContractAddress: '0xdBBe7778b09F9568C7856036644FeCFfE46ad177', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'nearpad-pad-rose',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'NearPad',
+    assets: ['PAD', 'ROSE'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://dex.nearpad.io/add/0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781/0xdcD6D4e2B3e1D1E1E6Fa8C21C8A323DcbecfF970',
+    buyTokenUrl:
+      'https://dex.nearpad.io/swap?inputCurrency=0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781&outputCurrency=0xdcD6D4e2B3e1D1E1E6Fa8C21C8A323DcbecfF970',
+  },
+  {
+    id: 'nearpad-pad-mnft',
+    name: 'PAD-MNFT NearPad LP v3',
+    token: 'PAD-MNFT NearPad LP',
+    tokenDescription: 'NearPad',
+    tokenAddress: '0xF5D643C8b102aCD7Ed4D841bcF06DC124280A724', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-PAD-MNFT-padV3',
+    earnedTokenAddress: '0xb4bFeeB70047887390B0D168fe9a0eFBa3DE410C', //  vault
+    earnContractAddress: '0xb4bFeeB70047887390B0D168fe9a0eFBa3DE410C', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'nearpad-pad-mnft',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'NearPad',
+    assets: ['PAD', 'MNFT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://dex.nearpad.io/add/0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781/0xd126B48c072f4668e944A8895bC74044D5f2E85b',
+    buyTokenUrl:
+      'https://dex.nearpad.io/swap?inputCurrency=0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781&outputCurrency=0xd126B48c072f4668e944A8895bC74044D5f2E85b',
+  },
+  // auroraswap pools 
+  {
+    id: 'auroraswap-near-usdc',
+    name: 'NEAR-USDC AuroraSwap LP',
+    token: 'NEAR-USDC AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0x480A68bA97d70495e80e11e05D59f6C659749F27', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-NEAR-USDC-aur',
+    earnedTokenAddress: '0x6d62ED9470Eb0fcfe2C17493ac32B555be44E2Cd', //  vault
+    earnContractAddress: '0x6d62ED9470Eb0fcfe2C17493ac32B555be44E2Cd', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-near-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['NEAR', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781/0xd126B48c072f4668e944A8895bC74044D5f2E85b',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781&outputCurrency=0xd126B48c072f4668e944A8895bC74044D5f2E85b',
+  },
+
 ];
