@@ -1441,25 +1441,25 @@ export const auroraPools = [
   },
   // auroraswap pools 
   {
-    id: 'auroraswap-near-usdc',
+    id: 'auroraswap-usdc-near',
     name: 'NEAR-USDC AuroraSwap LP',
     token: 'NEAR-USDC AuroraSwap LP',
     tokenDescription: 'AuroraSwap',
     tokenAddress: '0x480A68bA97d70495e80e11e05D59f6C659749F27', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-NEAR-USDC-aur',
-    earnedTokenAddress: '0x6d62ED9470Eb0fcfe2C17493ac32B555be44E2Cd', //  vault
-    earnContractAddress: '0x6d62ED9470Eb0fcfe2C17493ac32B555be44E2Cd', //  vault
+    earnedToken: 'vapor-NEAR-USDC-auroraswap',
+    earnedTokenAddress: '0xfE4f3c154a91007d173e1BDeff25D0cDD339eda6', //  vault
+    earnContractAddress: '0xfE4f3c154a91007d173e1BDeff25D0cDD339eda6', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'auroraswap-near-usdc',
+    oracleId: 'auroraswap-usdc-near',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
     platform: 'AuroraSwap',
-    assets: ['NEAR', 'USDC'],
+    assets: ['USDC', 'NEAR'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
@@ -1471,9 +1471,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781/0xd126B48c072f4668e944A8895bC74044D5f2E85b',
+      'https://swap.auroraswap.finance/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781&outputCurrency=0xd126B48c072f4668e944A8895bC74044D5f2E85b',
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
 
 ];
