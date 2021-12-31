@@ -1333,7 +1333,7 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xFa94348467f64D5A457F75F8bc40495D33c65aBB&outputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f',
   },
-    {
+  {
     id: 'nearpad-pad-rose',
     name: 'PAD-ROSE NearPad LP v3',
     token: 'PAD-ROSE NearPad LP',
@@ -1403,7 +1403,7 @@ export const auroraPools = [
     buyTokenUrl:
       'https://dex.nearpad.io/swap?inputCurrency=0x885f8CF6E45bdd3fdcDc644efdcd0AC93880c781&outputCurrency=0xd126B48c072f4668e944A8895bC74044D5f2E85b',
   },
-  // auroraswap pools 
+  // auroraswap pools
   {
     id: 'auroraswap-usdc-near',
     name: 'NEAR-USDC AuroraSwap LP',
@@ -1439,5 +1439,354 @@ export const auroraPools = [
     buyTokenUrl:
       'https://swap.auroraswap.finance/#/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-
+  {
+    id: 'auroraswap-near-weth',
+    name: 'NEAR-WETH AuroraSwap LP',
+    token: 'NEAR-WETH AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0xc57eCc341aE4df32442Cf80F34f41Dc1782fE067', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-NEAR-WETH-auroraswap',
+    earnedTokenAddress: '0xc0bBa5e2C4F1908815A0D74A74e08C62D08e4741', //  vault
+    earnContractAddress: '0xc0bBa5e2C4F1908815A0D74A74e08C62D08e4741', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-near-weth',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['NEAR', 'WETH'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'auroraswap-weth-wbtc',
+    name: 'WBTC-WETH AuroraSwap LP',
+    token: 'WBTC-WETH AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0xcb8584360Dc7A4eAC4878b48fB857AA794E46Fa8', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WBTC-WETH-auroraswap',
+    earnedTokenAddress: '0x64c9744ce1b2356aD0824204F2C65866ee419EA2', //  vault
+    earnContractAddress: '0x64c9744ce1b2356aD0824204F2C65866ee419EA2', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-weth-wbtc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['WETH', 'WBTC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+  },
+  {
+    id: 'auroraswap-near-busd',
+    name: 'NEAR-BUSD AuroraSwap LP',
+    token: 'NEAR-BUSD AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0x1C393468D95ADF8960E64939bCDd6eE602DE221C', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-NEAR-BUSD-auroraswap',
+    earnedTokenAddress: '0xb43eE48CD8E8343aa69a82A72993f648f7C030ca', //  vault
+    earnContractAddress: '0xb43eE48CD8E8343aa69a82A72993f648f7C030ca', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-near-busd',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['NEAR', 'BUSD'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818',
+  },
+  {
+    id: 'auroraswap-near-matic',
+    name: 'NEAR-MATIC AuroraSwap LP',
+    token: 'NEAR-MATIC AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0x8298B8C863c2213B9698A08de009cC0aB0F87FEe', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-NEAR-MATIC-auroraswap',
+    earnedTokenAddress: '0xe3eF895b193208a234E081D29d3A88a12C040334', //  vault
+    earnContractAddress: '0xe3eF895b193208a234E081D29d3A88a12C040334', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-near-matic',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['NEAR', 'MATIC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xb03595F5BdE574D9903CE5c81B1039Ee5401Cdca',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xb03595F5BdE574D9903CE5c81B1039Ee5401Cdca',
+  },
+  {
+    id: 'auroraswap-near-wbtc',
+    name: 'NEAR-WBTC AuroraSwap LP',
+    token: 'NEAR-WBTC AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0xe11A3f2BAB372d88D133b64487D1772847Eec4eA', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-NEAR-WBTC-auroraswap',
+    earnedTokenAddress: '0x164AB880E95C6dDa87Af18eBC9b4886BD8C012d9', //  vault
+    earnContractAddress: '0x164AB880E95C6dDa87Af18eBC9b4886BD8C012d9', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-near-wbtc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['NEAR', 'WBTC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+  },
+  {
+    id: 'auroraswap-usdc-usdt',
+    name: 'USDT-USDC AuroraSwap LP',
+    token: 'USDT-USDC AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0xEc538fAfaFcBB625C394c35b11252cef732368cd', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-USDT-USDC-auroraswap',
+    earnedTokenAddress: '0xC62e346C26637cd2D9F87714BD44add307E293ae', //  vault
+    earnContractAddress: '0xC62e346C26637cd2D9F87714BD44add307E293ae', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-usdc-usdt',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['USDC', 'USDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+  },
+  {
+    id: 'auroraswap-aurora-near',
+    name: 'AURORA-NEAR AuroraSwap LP',
+    token: 'AURORA-NEAR AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0x84567E7511E0d97DE676d236AEa7aE688221799e', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-AURORA-NEAR-auroraswap',
+    earnedTokenAddress: '0x8ff4edF477F5fA660408137301025cacADE3628D', //  vault
+    earnContractAddress: '0x8ff4edF477F5fA660408137301025cacADE3628D', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-aurora-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['AURORA', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'auroraswap-brl-near',
+    name: 'BRL-NEAR AuroraSwap LP',
+    token: 'BRL-NEAR AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0x5bdac608cd38c5c8738f5be20813194a3150d4ff', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-BRL-NEAR-auroraswap',
+    earnedTokenAddress: '0xaf0A920954c4F786E79F7506eBdecc0F8E5Ca30b', //  vault
+    earnContractAddress: '0xaf0A920954c4F786E79F7506eBdecc0F8E5Ca30b', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-brl-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['BRL', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'auroraswap-brl-weth',
+    name: 'BRL-WETH AuroraSwap LP',
+    token: 'BRL-WETH AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0xefcf518ca36dc3362f539965807b42a77dc26be0', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-BRL-WETH-auroraswap',
+    earnedTokenAddress: '0xD76e4ca23269Dc93F16240E5A9135F3E9B6E00B3', //  vault
+    earnContractAddress: '0xD76e4ca23269Dc93F16240E5A9135F3E9B6E00B3', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-brl-weth',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['BRL', 'WETH'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
+  },
+  {
+    id: 'auroraswap-brl-aurora',
+    name: 'BRL-AURORA AuroraSwap LP',
+    token: 'BRL-AURORA AuroraSwap LP',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0xDB0363ee28a5B40BDc2f4701e399c63E00f91Aa8', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-BRL-AURORA-auroraswap',
+    earnedTokenAddress: '0x23E9e509aCe446536b280A1d6aca0dcd4b7Bb6C8', //  vault
+    earnContractAddress: '0x23E9e509aCe446536b280A1d6aca0dcd4b7Bb6C8', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'auroraswap-brl-aurora',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['BRL', 'AURORA'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+  },
 ];
