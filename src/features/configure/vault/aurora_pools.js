@@ -1789,4 +1789,40 @@ export const auroraPools = [
     buyTokenUrl:
       'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
   },
+  {
+    id: 'auroraswap-brl',
+    logo: 'single-assets/BRL.svg',
+    name: 'BRL AuroraSwap',
+    token: 'BRL AuroraSwap',
+    tokenDescription: 'AuroraSwap',
+    tokenAddress: '0x12c87331f086c3C926248f964f8702C0842Fd77F', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-BRL-auroraswap',
+    earnedTokenAddress: '0x23E9e509aCe446536b280A1d6aca0dcd4b7Bb6C8', //  vault
+    earnContractAddress: '0x23E9e509aCe446536b280A1d6aca0dcd4b7Bb6C8', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'auroraswap-brl',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'AuroraSwap',
+    assets: ['BRL'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'SingleStake',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+    buyTokenUrl:
+      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+  },
 ];
