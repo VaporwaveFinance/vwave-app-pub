@@ -1792,19 +1792,19 @@ export const auroraPools = [
   {
     id: 'auroraswap-brl',
     logo: 'single-assets/BRL.svg',
-    name: 'BRL AuroraSwap',
-    token: 'BRL AuroraSwap',
-    tokenDescription: 'AuroraSwap',
+    name: 'BRL',
+    token: 'BRL',
+    tokenDescription: 'BRL',
     tokenAddress: '0x12c87331f086c3C926248f964f8702C0842Fd77F', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'vapor-BRL-auroraswap',
-    earnedTokenAddress: '0x23E9e509aCe446536b280A1d6aca0dcd4b7Bb6C8', //  vault
-    earnContractAddress: '0x23E9e509aCe446536b280A1d6aca0dcd4b7Bb6C8', //  vault
+    earnedTokenAddress: '0xe9f132a2714EEE236102A039D24Cc793A2Db7D9e', //  vault
+    earnContractAddress: '0xe9f132a2714EEE236102A039D24Cc793A2Db7D9e', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'auroraswap-brl',
+    oracleId: 'BRL',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
