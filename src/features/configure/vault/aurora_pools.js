@@ -32,15 +32,52 @@ export const auroraPools = [
   //   withdrawalFee: '0.05%',
   //   buyTokenUrl: 'https://www.trisolaris.io/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0x2451dB68DeD81900C4F16ae1af597E9658689734',
   // },
+
+  //  RETIRED VAULTS
+  {
+    id: 'trisolaris-ust-near retired',
+    name: 'UST-NEAR TLP v3', //  the name of the vault
+    token: 'UST-NEAR TLP', //  the name of the token that is deposited
+    tokenDescription: 'TriSolaris', //  uses what farm
+    tokenAddress: '0xa9eded3E339b9cd92bB6DEF5c5379d678131fF90', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-UST-NEAR-miniTri', //    name of vapor token symbol used on FE
+    earnedTokenAddress: '0xe7c6493964C42037d77A824Ac2F514f97D9F0a89', //  vault
+    earnContractAddress: '0xe7c6493964C42037d77A824Ac2F514f97D9F0a89', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisolaris-ust-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'eol',
+    platform: 'TriSolaris',
+    assets: ['UST', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.0%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://www.trisolaris.io/#/swap?inputCurrency=0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
   {
     id: 'trisolaris-usdt-usdc retired',
-    name: 'USDT-USDC LP',
+    name: 'USDT-USDC LP', //
     token: 'USDT-USDC LP',
     tokenDescription: 'TriSolaris',
     tokenAddress: '0x2fe064B6c7D274082aa5d2624709bC9AE7D16C77', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'VWAVE-USDT-USDC-TRILP',
+    earnedToken: 'VWAVE-USDT-USDC-TRILP', //
     earnedTokenAddress: '0x0Be510837509a13211793A5342E73889Da961a74', //  vault
     earnContractAddress: '0x0Be510837509a13211793A5342E73889Da961a74', //  vault
     pricePerFullShare: 1,
@@ -1197,15 +1234,15 @@ export const auroraPools = [
   },
   {
     id: 'trisolaris-ust-near',
-    name: 'UST-NEAR TLP v3',
+    name: 'UST-NEAR TLP v4',
     token: 'UST-NEAR TLP',
     tokenDescription: 'TriSolaris',
     tokenAddress: '0xa9eded3E339b9cd92bB6DEF5c5379d678131fF90', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-UST-NEAR-miniTri',
-    earnedTokenAddress: '0xe7c6493964C42037d77A824Ac2F514f97D9F0a89', //  vault
-    earnContractAddress: '0xe7c6493964C42037d77A824Ac2F514f97D9F0a89', //  vault
+    earnedToken: 'vapor-UST-NEAR-miniTriV2',
+    earnedTokenAddress: '0x003200C91E9242B414C047865334626D9A64BD57', //  vault
+    earnContractAddress: '0x003200C91E9242B414C047865334626D9A64BD57', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -1511,6 +1548,76 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
+  {
+    id: 'trisolaris-flx-near',
+    name: 'FLX-NEAR TLP v4',
+    token: 'FLX-NEAR TLP',
+    tokenDescription: 'TriSolaris',
+    tokenAddress: '0x48887cEEA1b8AD328d5254BeF774Be91B90FaA09', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-FLX-NEAR-miniTriV2',
+    earnedTokenAddress: '0xd55a5AeD22aA1BFc70B58fd528dDaC04d67F3407', //  vault
+    earnContractAddress: '0xd55a5AeD22aA1BFc70B58fd528dDaC04d67F3407', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisolaris-flx-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'TriSolaris',
+    assets: ['FLX', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0xea62791aa682d455614eaA2A12Ba3d9A2fD197af/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://www.trisolaris.io/#/swap?inputCurrency=0xea62791aa682d455614eaA2A12Ba3d9A2fD197af&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
+  {
+    id: 'trisolaris-mecha-near',
+    name: 'MECHA-NEAR TLP v4',
+    token: 'MECHA-NEAR TLP',
+    tokenDescription: 'TriSolaris',
+    tokenAddress: '0xd62f9ec4C4d323A0C111d5e78b77eA33A2AA862f', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-MECHA-NEAR-miniTriV2',
+    earnedTokenAddress: '0xb9aF3A138e10751B016Aef5D31b3DFB589eb68F2', //  vault
+    earnContractAddress: '0xb9aF3A138e10751B016Aef5D31b3DFB589eb68F2', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisolaris-mecha-near',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'TriSolaris',
+    assets: ['MECHA', 'NEAR'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0xa33C3B53694419824722C10D99ad7cB16Ea62754/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    buyTokenUrl:
+      'https://www.trisolaris.io/#/swap?inputCurrency=0xa33C3B53694419824722C10D99ad7cB16Ea62754&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  },
   //  nearpad pools
   {
     id: 'nearpad-usdt-usdc',
@@ -1789,9 +1896,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
     id: 'auroraswap-near-weth',
@@ -1824,9 +1931,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
     id: 'auroraswap-weth-wbtc',
@@ -1859,9 +1966,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+      'https://swap.auroraswap.net/#/add/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
   },
   {
     id: 'auroraswap-near-busd',
@@ -1894,9 +2001,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818',
+      'https://swap.auroraswap.net/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818',
   },
   {
     id: 'auroraswap-near-matic',
@@ -1929,9 +2036,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xb03595F5BdE574D9903CE5c81B1039Ee5401Cdca',
+      'https://swap.auroraswap.net/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xb03595F5BdE574D9903CE5c81B1039Ee5401Cdca',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xb03595F5BdE574D9903CE5c81B1039Ee5401Cdca',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xb03595F5BdE574D9903CE5c81B1039Ee5401Cdca',
   },
   {
     id: 'auroraswap-near-wbtc',
@@ -1964,9 +2071,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+      'https://swap.auroraswap.net/#/add/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d/0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d&outputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e',
   },
   {
     id: 'auroraswap-usdc-usdt',
@@ -1999,9 +2106,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+      'https://swap.auroraswap.net/#/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
   },
   {
     id: 'auroraswap-aurora-near',
@@ -2034,9 +2141,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/add/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
     id: 'auroraswap-brl-near',
@@ -2069,9 +2176,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
   {
     id: 'auroraswap-brl-weth',
@@ -2104,9 +2211,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
+      'https://swap.auroraswap.net/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
   },
   {
     id: 'auroraswap-brl-aurora',
@@ -2139,9 +2246,9 @@ export const auroraPools = [
     stratType: 'StratLP',
     withdrawalFee: '0.1%',
     addLiquidityUrl:
-      'https://swap.auroraswap.finance/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+      'https://swap.auroraswap.net/#/add/0x12c87331f086c3C926248f964f8702C0842Fd77F/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
     buyTokenUrl:
-      'https://swap.auroraswap.finance/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+      'https://swap.auroraswap.net/#/swap?inputCurrency=0x12c87331f086c3C926248f964f8702C0842Fd77F&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
   },
 
   //  begin ROSE pools
