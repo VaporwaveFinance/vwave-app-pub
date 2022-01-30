@@ -35,6 +35,41 @@ export const auroraPools = [
 
   //  RETIRED VAULTS
   {
+    id: 'wannaswap-aurora-wanna retired',
+    name: 'AURORA-WANNA WLP v3',
+    token: 'AURORA-WANNA WLP',
+    tokenDescription: 'WannaSwap',
+    tokenAddress: '0xddCcf2F096fa400ce90ba0568908233e6A950961', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-AURORA-WANNA-wannaV3',
+    earnedTokenAddress: '0x83b732e9a1B6DaaFbB74915A7FAA0B0a4550F9d0', //  vault
+    earnContractAddress: '0x83b732e9a1B6DaaFbB74915A7FAA0B0a4550F9d0', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wannaswap-aurora-wanna',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'eol',
+    platform: 'WannaSwap',
+    assets: ['AURORA', 'WANNA'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://wannaswap.finance/exchange/add/0x7faA64Faf54750a2E3eE621166635fEAF406Ab22/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+    buyTokenUrl:
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x7faA64Faf54750a2E3eE621166635fEAF406Ab22&outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+  },
+  {
     id: 'trisolaris-ust-near retired',
     name: 'UST-NEAR TLP v3', //  the name of the vault
     token: 'UST-NEAR TLP', //  the name of the token that is deposited
@@ -918,15 +953,15 @@ export const auroraPools = [
   },
   {
     id: 'wannaswap-aurora-wanna',
-    name: 'AURORA-WANNA WLP v3',
+    name: 'AURORA-WANNA WLP v4',
     token: 'AURORA-WANNA WLP',
     tokenDescription: 'WannaSwap',
     tokenAddress: '0xddCcf2F096fa400ce90ba0568908233e6A950961', //  wantToken
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-AURORA-WANNA-wannaV3',
-    earnedTokenAddress: '0x83b732e9a1B6DaaFbB74915A7FAA0B0a4550F9d0', //  vault
-    earnContractAddress: '0x83b732e9a1B6DaaFbB74915A7FAA0B0a4550F9d0', //  vault
+    earnedToken: 'vapor-AURORA-WANNA-wannaMiniV4',
+    earnedTokenAddress: '0x7EF66F8a59005E46E7E113254823b77070e14804', //  vault
+    earnContractAddress: '0x7EF66F8a59005E46E7E113254823b77070e14804', //  vault
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -1583,41 +1618,41 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xea62791aa682d455614eaA2A12Ba3d9A2fD197af&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  {
-    id: 'trisolaris-mecha-near',
-    name: 'MECHA-NEAR TLP v4',
-    token: 'MECHA-NEAR TLP',
-    tokenDescription: 'TriSolaris',
-    tokenAddress: '0xd62f9ec4C4d323A0C111d5e78b77eA33A2AA862f', //  wantToken
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-MECHA-NEAR-miniTriV2',
-    earnedTokenAddress: '0xb9aF3A138e10751B016Aef5D31b3DFB589eb68F2', //  vault
-    earnContractAddress: '0xb9aF3A138e10751B016Aef5D31b3DFB589eb68F2', //  vault
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'trisolaris-mecha-near',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'TriSolaris',
-    assets: ['MECHA', 'NEAR'],
-    risks: [
-      'COMPLEXITY_LOW',
-      'BATTLE_TESTED',
-      'IL_NONE',
-      'MCAP_MEDIUM',
-      'AUDIT',
-      'CONTRACTS_VERIFIED',
-    ],
-    stratType: 'StratLP',
-    withdrawalFee: '0.1%',
-    addLiquidityUrl:
-      'https://www.trisolaris.io/#/add/0xa33C3B53694419824722C10D99ad7cB16Ea62754/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-    buyTokenUrl:
-      'https://www.trisolaris.io/#/swap?inputCurrency=0xa33C3B53694419824722C10D99ad7cB16Ea62754&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  },
+  // {
+  //   id: 'trisolaris-mecha-near',
+  //   name: 'MECHA-NEAR TLP v4',
+  //   token: 'MECHA-NEAR TLP',
+  //   tokenDescription: 'TriSolaris',
+  //   tokenAddress: '0xd62f9ec4C4d323A0C111d5e78b77eA33A2AA862f', //  wantToken
+  //   tokenDecimals: 18,
+  //   tokenDescriptionUrl: '#',
+  //   earnedToken: 'vapor-MECHA-NEAR-miniTriV2',
+  //   earnedTokenAddress: '0xb9aF3A138e10751B016Aef5D31b3DFB589eb68F2', //  vault
+  //   earnContractAddress: '0xb9aF3A138e10751B016Aef5D31b3DFB589eb68F2', //  vault
+  //   pricePerFullShare: 1,
+  //   tvl: 0,
+  //   oracle: 'lps',
+  //   oracleId: 'trisolaris-mecha-near',
+  //   oraclePrice: 0,
+  //   depositsPaused: false,
+  //   status: 'active',
+  //   platform: 'TriSolaris',
+  //   assets: ['MECHA', 'NEAR'],
+  //   risks: [
+  //     'COMPLEXITY_LOW',
+  //     'BATTLE_TESTED',
+  //     'IL_NONE',
+  //     'MCAP_MEDIUM',
+  //     'AUDIT',
+  //     'CONTRACTS_VERIFIED',
+  //   ],
+  //   stratType: 'StratLP',
+  //   withdrawalFee: '0.1%',
+  //   addLiquidityUrl:
+  //     'https://www.trisolaris.io/#/add/0xa33C3B53694419824722C10D99ad7cB16Ea62754/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  //   buyTokenUrl:
+  //     'https://www.trisolaris.io/#/swap?inputCurrency=0xa33C3B53694419824722C10D99ad7cB16Ea62754&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  // },
   //  nearpad pools
   {
     id: 'nearpad-usdt-usdc',
