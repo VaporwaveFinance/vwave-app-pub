@@ -33,6 +33,79 @@ export const auroraPools = [
   //   buyTokenUrl: 'https://www.trisolaris.io/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0x2451dB68DeD81900C4F16ae1af597E9658689734',
   // },
 
+  
+  // test
+   {
+      id: 'trisolaris-stnear-xtri',
+      name: 'STNEAR-XTRI TLP',
+      token: 'STNEAR-XTRI TLP',
+      tokenDescription: 'TriSolaris',
+      tokenAddress: '0x5913f644A10d98c79F2e0b609988640187256373', //  wantToken
+      tokenDecimals: 18,
+      tokenDescriptionUrl: '#',
+      earnedToken: 'vapor-STNEAR-XTRI-trisolV5',
+      earnedTokenAddress: '0x03551BF18412af55536f25d6D3420f5AD4E56cF3', //  vault
+      earnContractAddress: '0x03551BF18412af55536f25d6D3420f5AD4E56cF3', //  vault
+      pricePerFullShare: 1,
+      tvl: 0,
+      oracle: 'lps',
+      oracleId: 'trisolaris-stnear-xtri',
+      oraclePrice: 0,
+      depositsPaused: false,
+      status: 'active',
+      platform: 'TriSolaris',
+      assets: ['STNEAR', 'XTRI'],
+      risks: [
+        'COMPLEXITY_LOW',
+        'BATTLE_TESTED',
+        'IL_NONE',
+        'MCAP_MEDIUM',
+        'AUDIT',
+        'CONTRACTS_VERIFIED',
+      ],
+      stratType: 'StratLP',
+      withdrawalFee: '0.1%',
+      addLiquidityUrl:
+        'https://www.trisolaris.io/#/add/0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30/0x802119e4e253D5C19aA06A5d567C5a41596D6803',
+      buyTokenUrl:
+        'https://www.trisolaris.io/#/swap?inputCurrency=0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30&outputCurrency=0x802119e4e253D5C19aA06A5d567C5a41596D6803',
+    },
+    {
+      id: 'trisolaris-stnear-near',
+      name: 'STNEAR-NEAR TLP',
+      token: 'STNEAR-NEAR TLP',
+      tokenDescription: 'TriSolaris',
+      tokenAddress: '0x47924Ae4968832984F4091EEC537dfF5c38948a4', //  wantToken
+      tokenDecimals: 18,
+      tokenDescriptionUrl: '#',
+      earnedToken: 'vapor-STNEAR-NEAR-trisolV5',
+      earnedTokenAddress: '0xa2664E432FD6bc97C23EfbC6dd66292e481d2372', //  vault
+      earnContractAddress: '0xa2664E432FD6bc97C23EfbC6dd66292e481d2372', //  vault
+      pricePerFullShare: 1,
+      tvl: 0,
+      oracle: 'lps',
+      oracleId: 'trisolaris-stnear-near',
+      oraclePrice: 0,
+      depositsPaused: false,
+      status: 'active',
+      platform: 'TriSolaris',
+      assets: ['STNEAR', 'NEAR'],
+      risks: [
+        'COMPLEXITY_LOW',
+        'BATTLE_TESTED',
+        'IL_NONE',
+        'MCAP_MEDIUM',
+        'AUDIT',
+        'CONTRACTS_VERIFIED',
+      ],
+      stratType: 'StratLP',
+      withdrawalFee: '0.1%',
+      addLiquidityUrl:
+        'https://www.trisolaris.io/#/add/0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+      buyTokenUrl:
+        'https://www.trisolaris.io/#/swap?inputCurrency=0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+    },
+  // test end
   //  RETIRED VAULTS
   {
     id: 'wannaswap-aurora-wanna retired',
