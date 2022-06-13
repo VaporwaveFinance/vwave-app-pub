@@ -1,5 +1,4 @@
 export const auroraPools = [
-  //  vwave maxi
   {
     id: 'aurora-vwave-maxi',
     logo: 'single-assets/VWAVE.png',
@@ -34,7 +33,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0x2451dB68DeD81900C4F16ae1af597E9658689734',
   },
-  //  BEGIN ROSE
   {
     id: 'rose-mai-3pool',
     logo: 'single-assets/MAI-Rose3Pair.svg',
@@ -160,8 +158,6 @@ export const auroraPools = [
     stratType: 'StratLP',
     addLiquidityUrl: 'https://app.rose.fi/#/pools/stables',
   },
-  //  END ROSE
-  // BEGIN AURIGAMI
   {
     id: 'aurigami-usdc-supply',
     logo: 'single-assets/USDC.svg',
@@ -298,9 +294,39 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  // END AURIGAMI
-  
-  //  begin v6 strats
+  {
+    id: 'trisol-3pool',
+    logo: 'single-assets/trisol3pool.svg',
+    name: 'USDT-USDC-USN Trisol 3pool',
+    token: 'USDT-USDC-USN TLP',
+    tokenDescription: 'Trisolaris',
+    tokenAddress: '0x87BCC091d0A7F9352728100268Ac8D25729113bB', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-3pool-Trisol76',
+    earnedTokenAddress: '0xF7a40BFA71f09Cdf29d3c3c52842C32a61f3B024', //  vault
+    earnContractAddress: '0xF7a40BFA71f09Cdf29d3c3c52842C32a61f3B024', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisol-3pool',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'TriSolaris',
+    assets: ['USDT', 'USDC', 'USN'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl: 'https://www.trisolaris.io/#/pool/stable/add/USDC_USDT_USN',
+  },
   {
     id: 'trisolaris-usdt-usdc',
     name: 'USDT-USDC TLP',
@@ -581,77 +607,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xf4eb217ba2454613b15dbdea6e5f22276410e89e&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  //  DEPRECATED BY TRISOLARIS
-  // {
-  //   id: 'trisolaris-ust-near',
-  //   name: 'UST-WNEAR TLP',
-  //   token: 'UST-WNEAR TLP',
-  //   tokenDescription: 'TriSolaris',
-  //   tokenAddress: '0xa9eded3E339b9cd92bB6DEF5c5379d678131fF90', //  wantToken
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'vapor-UST-WNEAR-trisolV6',
-  //   earnedTokenAddress: '0x1c1D7864F9bB26aEcFF66565037a80B8E774b365', //  vault
-  //   earnContractAddress: '0x1c1D7864F9bB26aEcFF66565037a80B8E774b365', //  vault
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'trisolaris-ust-near',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'TriSolaris',
-  //   assets: ['UST', 'NEAR'],
-  //   risks: [
-  //     'COMPLEXITY_LOW',
-  //     'BATTLE_TESTED',
-  //     'IL_NONE',
-  //     'MCAP_MEDIUM',
-  //     'AUDIT',
-  //     'CONTRACTS_VERIFIED',
-  //   ],
-  //   stratType: 'StratLP',
-  //   withdrawalFee: '0.1%',
-  //   addLiquidityUrl:
-  //     'https://www.trisolaris.io/#/add/0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  //   buyTokenUrl:
-  //     'https://www.trisolaris.io/#/swap?inputCurrency=0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  // },
-  // {
-  //   id: 'trisolaris-near-luna',
-  //   name: 'WNEAR-LUNA TLP',
-  //   token: 'WNEAR-LUNA TLP',
-  //   tokenDescription: 'TriSolaris',
-  //   tokenAddress: '0xdF8CbF89ad9b7dAFdd3e37acEc539eEcC8c47914', //  wantToken
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'vapor-WNEAR-LUNA-trisolV6',
-  //   earnedTokenAddress: '0x6DA13149710832cb33C4f3D8997065Cf0F352437', //  vault
-  //   earnContractAddress: '0x6DA13149710832cb33C4f3D8997065Cf0F352437', //  vault
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'trisolaris-near-luna',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'TriSolaris',
-  //   assets: ['NEAR', 'LUNA'],
-  //   risks: [
-  //     'COMPLEXITY_LOW',
-  //     'BATTLE_TESTED',
-  //     'IL_NONE',
-  //     'MCAP_MEDIUM',
-  //     'AUDIT',
-  //     'CONTRACTS_VERIFIED',
-  //   ],
-  //   stratType: 'StratLP',
-  //   withdrawalFee: '0.1%',
-  //   addLiquidityUrl:
-  //     'https://www.trisolaris.io/#/add/0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  //   buyTokenUrl:
-  //     'https://www.trisolaris.io/#/swap?inputCurrency=0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-  // },
   {
     id: 'trisolaris-near-flx',
     name: 'FLX-NEAR TLP',
@@ -774,7 +729,7 @@ export const auroraPools = [
     oracleId: 'trisolaris-solace-near',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'TriSolaris',
     assets: ['SOLACE', 'NEAR'],
     risks: [
@@ -786,7 +741,7 @@ export const auroraPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
-    withdrawalFee: '0.1%',
+    withdrawalFee: '0.0%',
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0x501acE9c35E60f03A2af4d484f49F9B1EFde9f40/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
@@ -809,7 +764,7 @@ export const auroraPools = [
     oracleId: 'trisolaris-stnear-xtri',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'TriSolaris',
     assets: ['STNEAR', 'XTRI'],
     risks: [
@@ -821,7 +776,7 @@ export const auroraPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
-    withdrawalFee: '0.1%',
+    withdrawalFee: '0.0%',
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30/0x802119e4e253D5C19aA06A5d567C5a41596D6803',
     buyTokenUrl:
@@ -897,7 +852,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0x293074789b247cab05357b08052468B5d7A23c5a&outputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f',
   },
-  // NEW VAULTS 4.22
   {
     id: 'trisolaris-shitzu-usdc',
     name: 'SHITZU-USDC TLP',
@@ -1003,7 +957,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0x19cc40283B057D6608C22F1D20F17e16C245642E&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  //  TO DO : FIX APY DISPLAY FROM API
   {
     id: 'trisolaris-linear-near',
     name: 'LINEAR-NEAR TLP',
@@ -1074,8 +1027,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0x9f1F933C660a1DC856F0E0Fe058435879c5CCEf0&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-
-  //  BEGIN NEARPAD POOLS
   {
     id: 'nearpad-usdt-pad',
     name: 'USDT-PAD NearPad LP',
@@ -1356,6 +1307,41 @@ export const auroraPools = [
   },
   //  BEGIN POLARIS VAULTS
   {
+    id: 'polaris-orbital-wbtc',
+    name: 'ORBITAL-WBTC TLP',
+    token: 'ORBITAL-WBTC TLP',
+    tokenDescription: 'Polaris',
+    tokenAddress: '0x7243cB5DBae5921c78A022110645a23a38ffBA5D', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-ORBITAL-WBTC-PolarisV6',
+    earnedTokenAddress: '0xaa6165c57DbAd5170be0669eAE795f8BCCf43A7B', //  vault
+    earnContractAddress: '0xaa6165c57DbAd5170be0669eAE795f8BCCf43A7B', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'polaris-orbital-wbtc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Polaris',
+    assets: ['ORBITAL', 'WBTC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://www.trisolaris.io/#/add/0x3AC55eA8D2082fAbda674270cD2367dA96092889/0xF4eB217Ba2454613b15dBdea6e5f22276410e89e',
+    buyTokenUrl:
+      'https://www.trisolaris.io/#/swap?inputCurrency=0x3AC55eA8D2082fAbda674270cD2367dA96092889&outputCurrency=0xF4eB217Ba2454613b15dBdea6e5f22276410e89e',
+  },
+  {
     id: 'polaris-ethernal-weth',
     name: 'ETHERNAL-WETH TLP',
     token: 'ETHERNAL-WETH TLP',
@@ -1547,7 +1533,7 @@ export const auroraPools = [
     oracleId: 'polaris-tripolar-xtri',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'Polaris',
     assets: ['TRIPOLAR', 'XTRI'],
     risks: [
@@ -1559,7 +1545,7 @@ export const auroraPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
-    withdrawalFee: '0.1%',
+    withdrawalFee: '0.0%',
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0x60527a2751A827ec0Adf861EfcAcbf111587d748/0x802119e4e253D5C19aA06A5d567C5a41596D6803',
     buyTokenUrl:
@@ -1600,7 +1586,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30&outputCurrency=0xf0f3b9Eee32b1F490A4b8720cf6F005d4aE9eA86',
   },
-  //  BEGIN AURORASWAP POOLS
   {
     id: 'auroraswap-near-weth',
     name: 'NEAR-WETH AuroraSwap LP',
@@ -1811,7 +1796,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://swap.auroraswap.net/#/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  //  BEGIN WANASWAP POOLS
   {
     id: 'wannaswap-wnear-wbtc',
     name: 'NEAR-WBTC WLP',
@@ -2092,7 +2076,6 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC&outputCurrency=0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d',
   },
-  //  BEGIN RETIRED POOLS
   {
     id: 'trisolaris-usdc-near retired',
     name: 'USDC-NEAR TLP',
@@ -2122,7 +2105,7 @@ export const auroraPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
-    withdrawalFee: '0.1%',
+    withdrawalFee: '0.0%',
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
     buyTokenUrl:
