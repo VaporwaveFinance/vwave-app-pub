@@ -1,0 +1,19 @@
+<svg width="67.79" height="67.79" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="null" ry="30.31815" rx="30.31815" id="svg_5" cy="34.06561" cx="33.39985" fill="#000000"/>
+  <g stroke="null">
+
+   <title stroke="null">Asset 1</title>
+   <g stroke="null" data-name="Layer 2" id="svg_9">
+    <g stroke="null" data-name="Layer 1" id="svg_10">
+     <path stroke="#f0b90b" fill="#f0b90b" d="m33.39985,4.49117l7.30559,7.48163l-18.396,18.396l-7.30559,-7.30559l18.396,-18.57204z" class="cls-1"/>
+     <path stroke="#f0b90b" fill="#f0b90b" d="m44.49027,15.58158l7.30559,7.48163l-29.48642,29.48642l-7.30559,-7.30559l29.48642,-29.66246z" class="cls-1"/>
+     <path stroke="#f0b90b" fill="#f0b90b" d="m11.21902,26.672l7.30559,7.48163l-7.30559,7.30559l-7.30559,-7.30559l7.30559,-7.48163z" class="cls-1"/>
+     <path stroke="#f0b90b" fill="#f0b90b" d="m55.58068,26.672l7.30559,7.48163l-29.48642,29.48642l-7.30559,-7.30559l29.48642,-29.66246z" class="cls-1"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
