@@ -34,6 +34,41 @@ export const auroraPools = [
     buyTokenUrl:
       'https://www.trisolaris.io/#/swap?inputCurrency=0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB&outputCurrency=0x2451dB68DeD81900C4F16ae1af597E9658689734',
   },
+  // BEGIN NEX
+  {
+    id: 'nex-nit',
+    logo: 'single-assets/NIT.svg',
+    name: 'NEX NIT',
+    token: 'NEX NIT',
+    tokenDescription: 'NEX',
+    tokenAddress: '0x772Db5bA7985aE6ceAE0d3d2156DC83067825A96', //  mainnet test SNIT
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-fNIT-NEX',
+    earnedTokenAddress: '0x1546450aF18c5412E20084C5968a9Ae6bCd08f1B', //  vault
+    earnContractAddress: '0x1546450aF18c5412E20084C5968a9Ae6bCd08f1B', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'nex-nit',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'NEX',
+    assets: ['NIT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    buyTokenUrl: 'https://nex.market/nit',
+  },
+  // END NEX
   //  BEGIN SOLACE
   {
     id: 'solace-solace',
