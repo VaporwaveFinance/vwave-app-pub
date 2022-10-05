@@ -69,6 +69,38 @@ export const auroraPools = [
     buyTokenUrl: 'https://nex.market/nit',
   },
   // END NEX
+  {
+    id: 'trisol-aurigami',
+    name: 'auUSDC auUSDT TLP',
+    token: 'auUSDT-auUSDT TLP',
+    tokenDescription: 'Trisolaris',
+    tokenAddress: '0x2e5F03c34A771F50C97E8f77EF801C426636e5Cd', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-auUSDC-auUSDT-TrisolStableV7',
+    earnedTokenAddress: '0xF8A4EbF4347b29b9aDCbdc98AC82ffdDD1A8914A', //  vault
+    earnContractAddress: '0xF8A4EbF4347b29b9aDCbdc98AC82ffdDD1A8914A', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'trisol-aurigami',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'TriSolaris',
+    assets: ['auUSDC', 'auUSDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl: 'https://app.aurigami.finance/',
+  },
   //  BEGIN SOLACE
   {
     id: 'solace-solace',
