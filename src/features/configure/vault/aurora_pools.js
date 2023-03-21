@@ -2285,40 +2285,40 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  {
-    id: 'wannaswap-usdt-near',
-    name: 'USDT-NEAR WLP',
-    token: 'USDT-NEAR WLP',
-    tokenDescription: 'WannaSwap',
-    tokenAddress: '0x2e02Bea8e9118f7d2ccadA1d402286Cc6d54bd67', //  wantToken
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-USDT-NEAR-WannaSwapV6',
-    earnedTokenAddress: '0x9BeeE290cD4DE17ba0eb0dc9a0B539137dEF1783', //  vault
-    earnContractAddress: '0x9BeeE290cD4DE17ba0eb0dc9a0B539137dEF1783', //  vault
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'wannaswap-usdt-near',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'WannaSwap',
-    assets: ['USDT', 'NEAR'],
-    risks: [
-      'COMPLEXITY_LOW',
-      'BATTLE_TESTED',
-      'IL_NONE',
-      'MCAP_MEDIUM',
-      'AUDIT',
-      'CONTRACTS_VERIFIED',
-    ],
-    stratType: 'StratLP',
-    withdrawalFee: '0.1%',
-    addLiquidityUrl:
-      'https://wannaswap.finance/exchange/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-    buyTokenUrl:
-      'https://wannaswap.finance/exchange/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  {	
+    id: 'wannaswap-usdt.e-near',	
+    name: 'USDT.e-NEAR WLP',	
+    token: 'USDT.e-NEAR WLP',	
+    tokenDescription: 'WannaSwap',	
+    tokenAddress: '0x2e02Bea8e9118f7d2ccadA1d402286Cc6d54bd67', //  wantToken	
+    tokenDecimals: 18,	
+    tokenDescriptionUrl: '#',	
+    earnedToken: 'vapor-USDT.e-NEAR-WannaSwapV6',	
+    earnedTokenAddress: '0x9BeeE290cD4DE17ba0eb0dc9a0B539137dEF1783', //  vault	
+    earnContractAddress: '0x9BeeE290cD4DE17ba0eb0dc9a0B539137dEF1783', //  vault	
+    pricePerFullShare: 1,	
+    tvl: 0,	
+    oracle: 'lps',	
+    oracleId: 'wannaswap-usdt.e-near',	
+    oraclePrice: 0,	
+    depositsPaused: false,	
+    status: 'active',	
+    platform: 'WannaSwap',	
+    assets: ['USDTe', 'NEAR'],	
+    risks: [	
+      'COMPLEXITY_LOW',	
+      'BATTLE_TESTED',	
+      'IL_NONE',	
+      'MCAP_MEDIUM',	
+      'AUDIT',	
+      'CONTRACTS_VERIFIED',	
+    ],	
+    stratType: 'StratLP',	
+    withdrawalFee: '0.1%',	
+    addLiquidityUrl:	
+      'https://wannaswap.finance/exchange/add/0x4988a896b1227218e4a686fde5eabdcabd91571f/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',	
+    buyTokenUrl:	
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0x4988a896b1227218e4a686fde5eabdcabd91571f&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',	
   },
   {
     id: 'wannaswap-wanna-near',
@@ -2390,40 +2390,40 @@ export const auroraPools = [
     buyTokenUrl:
       'https://wannaswap.finance/exchange/swap?inputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
   },
-  {
-    id: 'wannaswap-usdc-near',
-    name: 'USDC-NEAR WLP',
-    token: 'USDC-NEAR WLP',
-    tokenDescription: 'WannaSwap',
-    tokenAddress: '0xBf560771B6002a58477EFBCDD6774A5a1947587B', //  wantToken
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'vapor-USDC-NEAR-WannaSwapV6',
-    earnedTokenAddress: '0x40a24492845e866f674a12036df98f84eDc458E6', //  vault
-    earnContractAddress: '0x40a24492845e866f674a12036df98f84eDc458E6', //  vault
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'wannaswap-usdc-near',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'WannaSwap',
-    assets: ['USDC', 'NEAR'],
-    risks: [
-      'COMPLEXITY_LOW',
-      'BATTLE_TESTED',
-      'IL_NONE',
-      'MCAP_MEDIUM',
-      'AUDIT',
-      'CONTRACTS_VERIFIED',
-    ],
-    stratType: 'StratLP',
-    withdrawalFee: '0.1%',
-    addLiquidityUrl:
-      'https://wannaswap.finance/exchange/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-    buyTokenUrl:
-      'https://wannaswap.finance/exchange/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
+  {	
+    id: 'wannaswap-usdc.e-near',	
+    name: 'USDC.e-NEAR WLP',	
+    token: 'USDC.e-NEAR WLP',	
+    tokenDescription: 'WannaSwap',	
+    tokenAddress: '0xBf560771B6002a58477EFBCDD6774A5a1947587B', //  wantToken	
+    tokenDecimals: 18,	
+    tokenDescriptionUrl: '#',	
+    earnedToken: 'vapor-USDC.e-NEAR-WannaSwapV6',	
+    earnedTokenAddress: '0x40a24492845e866f674a12036df98f84eDc458E6', //  vault	
+    earnContractAddress: '0x40a24492845e866f674a12036df98f84eDc458E6', //  vault	
+    pricePerFullShare: 1,	
+    tvl: 0,	
+    oracle: 'lps',	
+    oracleId: 'wannaswap-usdc.e-near',	
+    oraclePrice: 0,	
+    depositsPaused: false,	
+    status: 'active',	
+    platform: 'WannaSwap',	
+    assets: ['USDCe', 'NEAR'],	
+    risks: [	
+      'COMPLEXITY_LOW',	
+      'BATTLE_TESTED',	
+      'IL_NONE',	
+      'MCAP_MEDIUM',	
+      'AUDIT',	
+      'CONTRACTS_VERIFIED',	
+    ],	
+    stratType: 'StratLP',	
+    withdrawalFee: '0.1%',	
+    addLiquidityUrl:	
+      'https://wannaswap.finance/exchange/add/0xB12BFcA5A55806AaF64E99521918A4bf0fC40802/0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',	
+    buyTokenUrl:	
+      'https://wannaswap.finance/exchange/swap?inputCurrency=0xB12BFcA5A55806AaF64E99521918A4bf0fC40802&outputCurrency=0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',	
   },
   {
     id: 'wannaswap-near-luna',
