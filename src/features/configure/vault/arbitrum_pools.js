@@ -1,234 +1,302 @@
 export const arbitrumPools = [
-    {
-      id: 'arbEx-ARX-USDC',
-      name: 'ARX-USDC ArbXLP',
-      token: 'ARX-USDC ArbXLP',
-      tokenDescription: 'Arbitrum Exchange',
-      tokenAddress: '0xA6efAE0C9293B4eE340De31022900bA747eaA92D', //  wantToken
-      tokenDecimals: 18,
-      tokenDescriptionUrl: '#',
-      earnedToken: 'vapor-ARX-USDC-ArbX',
-      earnedTokenAddress: '0x3705ccb75fb7dfd22a91d8b840e86765c66fe88c', //  vault
-      earnContractAddress: '0x3705ccb75fb7dfd22a91d8b840e86765c66fe88c', //  vault
-      pricePerFullShare: 1,
-      tvl: 0,
-      oracle: 'lps',
-      oracleId: 'arbitrumExchange-arx-usdc',
-      oraclePrice: 0,
-      depositsPaused: false,
-      status: 'active',
-      platform: 'Arbitrum Exchange',
-      assets: ['ARX', 'USDC'],
-      risks: [
-        'COMPLEXITY_LOW',
-        'BATTLE_TESTED',
-        'IL_NONE',
-        'MCAP_MEDIUM',
-        'AUDIT',
-        'CONTRACTS_VERIFIED',
-      ],
-      stratType: 'StratLP',
-      withdrawalFee: '0.1%',
-      addLiquidityUrl:
-        'https://arbidex.fi/add/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/0xD5954c3084a1cCd70B4dA011E67760B8e78aeE84/',
-    },
-    {
-        id: 'arbEx-WETH-USDC',
-        name: 'WETH-USDC ArbXLP',
-        token: 'WETH-USDC ArbXLP',
-        tokenDescription: 'Arbitrum Exchange',
-        tokenAddress: '0x4C42fA9Ecc3A17229EDf0fd6A8eec3F11D7E00D3', //  wantToken
-        tokenDecimals: 18,
-        tokenDescriptionUrl: '#',
-        earnedToken: 'vapor-WETH-USDC-ArbX',
-        earnedTokenAddress: '0xfaAC85f51920134A89570aDe52fa45B06f2E844C', //  vault
-        earnContractAddress: '0xfaAC85f51920134A89570aDe52fa45B06f2E844C', //  vault
-        pricePerFullShare: 1,
-        tvl: 0,
-        oracle: 'lps',
-        oracleId: 'arbitrumExchange-weth-usdc',
-        oraclePrice: 0,
-        depositsPaused: false,
-        status: 'active',
-        platform: 'Arbitrum Exchange',
-        assets: ['WETH', 'USDC'],
-        risks: [
-          'COMPLEXITY_LOW',
-          'BATTLE_TESTED',
-          'IL_NONE',
-          'MCAP_MEDIUM',
-          'AUDIT',
-          'CONTRACTS_VERIFIED',
-        ],
-        stratType: 'StratLP',
-        withdrawalFee: '0.1%',
-        addLiquidityUrl:
-          'https://arbidex.fi/add/ETH/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8'
-      },
-      {
-        id: 'arbEx-USDT-USDC',
-        name: 'USDT-USDC ArbXLP',
-        token: 'USDT-USDC ArbXLP',
-        tokenDescription: 'Arbitrum Exchange',
-        tokenAddress: '0xD082d6E0AF69f74F283b90C3CDa9C35615Bce367', //  wantToken
-        tokenDecimals: 18,
-        tokenDescriptionUrl: '#',
-        earnedToken: 'vapor-USDT-USDC-ArbX',
-        earnedTokenAddress: '0xc4917a477A7807Da0cB4eeB05651D134430110cC', //  vault
-        earnContractAddress: '0xc4917a477A7807Da0cB4eeB05651D134430110cC', //  vault
-        pricePerFullShare: 1,
-        tvl: 0,
-        oracle: 'lps',
-        oracleId: 'arbitrumExchange-usdt-usdc',
-        oraclePrice: 0,
-        depositsPaused: false,
-        status: 'active',
-        platform: 'Arbitrum Exchange',
-        assets: ['USDT', 'USDC'],
-        risks: [
-          'COMPLEXITY_LOW',
-          'BATTLE_TESTED',
-          'IL_NONE',
-          'MCAP_MEDIUM',
-          'AUDIT',
-          'CONTRACTS_VERIFIED',
-        ],
-        stratType: 'StratLP',
-        withdrawalFee: '0.1%',
-        addLiquidityUrl:
-          'https://arbidex.fi/add/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8'
-      },
-      {
-        id: 'arbEx-WBTC-USDC',
-        name: 'WBTC-USDC ArbXLP',
-        token: 'WBTC-USDC ArbXLP',
-        tokenDescription: 'Arbitrum Exchange',
-        tokenAddress: '0xA6A6090749B9E3010802C5bFF3845aa6A4AC321B', //  wantToken
-        tokenDecimals: 18,
-        tokenDescriptionUrl: '#',
-        earnedToken: 'vapor-WBTC-USDC-ArbX',
-        earnedTokenAddress: '0x4922b3f50bc80bd809175AfFbF518B00B357D87F', //  vault
-        earnContractAddress: '0x4922b3f50bc80bd809175AfFbF518B00B357D87F', //  vault
-        pricePerFullShare: 1,
-        tvl: 0,
-        oracle: 'lps',
-        oracleId: 'arbitrumExchange-wbtc-usdc',
-        oraclePrice: 0,
-        depositsPaused: false,
-        status: 'active',
-        platform: 'Arbitrum Exchange',
-        assets: ['WBTC', 'USDC'],
-        risks: [
-          'COMPLEXITY_LOW',
-          'BATTLE_TESTED',
-          'IL_NONE',
-          'MCAP_MEDIUM',
-          'AUDIT',
-          'CONTRACTS_VERIFIED',
-        ],
-        stratType: 'StratLP',
-        withdrawalFee: '0.1%',
-        addLiquidityUrl:
-          'https://arbidex.fi/add/0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8'
-      },
-      {
-        id: 'arbEx-WBTC-WETH',
-        name: 'WBTC-WETH ArbXLP',
-        token: 'WBTC-WETH ArbXLP',
-        tokenDescription: 'Arbitrum Exchange',
-        tokenAddress: '0x10A12127867d3885Ac64b51cc91a67c907eE51db', //  wantToken
-        tokenDecimals: 18,
-        tokenDescriptionUrl: '#',
-        earnedToken: 'vapor-WBTC-WETH-ArbX',
-        earnedTokenAddress: '0x91B7D752894B1250b53b777647D2e23206a7dDB8', //  vault
-        earnContractAddress: '0x91B7D752894B1250b53b777647D2e23206a7dDB8', //  vault
-        pricePerFullShare: 1,
-        tvl: 0,
-        oracle: 'lps',
-        oracleId: 'arbitrumExchange-wbtc-weth',
-        oraclePrice: 0,
-        depositsPaused: false,
-        status: 'active',
-        platform: 'Arbitrum Exchange',
-        assets: ['WBTC', 'WETH'],
-        risks: [
-          'COMPLEXITY_LOW',
-          'BATTLE_TESTED',
-          'IL_NONE',
-          'MCAP_MEDIUM',
-          'AUDIT',
-          'CONTRACTS_VERIFIED',
-        ],
-        stratType: 'StratLP',
-        withdrawalFee: '0.1%',
-        addLiquidityUrl:
-          'https://arbidex.fi/add/0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f/ETH'
-      },
-      {
-        id: 'arbEx-WETH-ARB',
-        name: 'WETH-ARB ArbXLP',
-        token: 'WETH-ARB ArbXLP',
-        tokenDescription: 'Arbitrum Exchange',
-        tokenAddress: '0x39511b74722afE77d532Eb70632B4B59C559019b', //  wantToken
-        tokenDecimals: 18,
-        tokenDescriptionUrl: '#',
-        earnedToken: 'vapor-WETH-ARB-ArbX',
-        earnedTokenAddress: '0x3C633a423e41E7C0a3362bCa7E6A5b39F9f69a44', //  vault
-        earnContractAddress: '0x3C633a423e41E7C0a3362bCa7E6A5b39F9f69a44', //  vault
-        pricePerFullShare: 1,
-        tvl: 0,
-        oracle: 'lps',
-        oracleId: 'arbitrumExchange-weth-arb',
-        oraclePrice: 0,
-        depositsPaused: false,
-        status: 'active',
-        platform: 'Arbitrum Exchange',
-        assets: ['WETH', 'ARB'],
-        risks: [
-          'COMPLEXITY_LOW',
-          'BATTLE_TESTED',
-          'IL_NONE',
-          'MCAP_MEDIUM',
-          'AUDIT',
-          'CONTRACTS_VERIFIED',
-        ],
-        stratType: 'StratLP',
-        withdrawalFee: '0.1%',
-        addLiquidityUrl:
-          'https://arbidex.fi/add/ETH/0x912CE59144191C1204E64559FE8253a0e49E6548'
-      },
-      {
-        id: 'arbEx-ARB-USDC',
-        name: 'ARB-USDC ArbXLP',
-        token: 'ARB-USDC ArbXLP',
-        tokenDescription: 'Arbitrum Exchange',
-        tokenAddress: '0xD65Ef54B1ff5D9a452B32Ac0c304d1674F761061', //  wantToken
-        tokenDecimals: 18,
-        tokenDescriptionUrl: '#',
-        earnedToken: 'vapor-ARB-USDC-ArbX',
-        earnedTokenAddress: '0xd5b6ac8F0E4A74376924d6455d3a1176ffD8bE00', //  vault
-        earnContractAddress: '0xd5b6ac8F0E4A74376924d6455d3a1176ffD8bE00', //  vault
-        pricePerFullShare: 1,
-        tvl: 0,
-        oracle: 'lps',
-        oracleId: 'arbitrumExchange-arb-usdc',
-        oraclePrice: 0,
-        depositsPaused: false,
-        status: 'active',
-        platform: 'Arbitrum Exchange',
-        assets: ['ARB', 'USDC'],
-        risks: [
-          'COMPLEXITY_LOW',
-          'BATTLE_TESTED',
-          'IL_NONE',
-          'MCAP_MEDIUM',
-          'AUDIT',
-          'CONTRACTS_VERIFIED',
-        ],
-        stratType: 'StratLP',
-        withdrawalFee: '0.1%',
-        addLiquidityUrl:
-          'https://arbidex.fi/add/0x912CE59144191C1204E64559FE8253a0e49E6548/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8'
-      },
+  {
+    id: 'wombex-usdc-main',
+    logo: 'single-assets/USDC.svg',
+    name: 'Wombat USDC Main (Wombex)',
+    token: 'Wombat LP-USDC',
+    tokenDescription: 'Wombat (Wombex)',
+    tokenAddress: '0x2977b0b54a76c2b56d32cef19f8ea83cc766cfd9', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-wombex-usdc-main',
+    earnedTokenAddress: '0xe7Bb140f788bD6E32C8aD9dc7f6C86822249fbD0', //  vault
+    earnContractAddress: '0xe7Bb140f788bD6E32C8aD9dc7f6C86822249fbD0', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wombex-usdc-main',
+    oraclePrice: 0,
+    depositsPaused: true,
+    status: 'active',
+    platform: 'Wombat (Wombex)',
+    assets: ['USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.wombat.exchange/pool?pool=MAIN&token=USDC&action=DEPOSIT',
+  },
+  {
+    id: 'wombex-usdt-main',
+    logo: 'single-assets/USDT.svg',
+    name: 'Wombat USDT Main (Wombex)',
+    token: 'Wombat LP-USDT',
+    tokenDescription: 'Wombat (Wombex)',
+    tokenAddress: '0x85cebd962861be410a777755dfa06914de6af003', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-wombex-usdt-main',
+    earnedTokenAddress: '0xbF45704B873Bcea2E5c62667bCAc94F473Ef0334', //  vault
+    earnContractAddress: '0xbF45704B873Bcea2E5c62667bCAc94F473Ef0334', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wombex-usdt-main',
+    oraclePrice: 0,
+    depositsPaused: true,
+    status: 'active',
+    platform: 'Wombat (Wombex)',
+    assets: ['USDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.wombat.exchange/pool?pool=MAIN&token=USDT&action=DEPOSIT',
+  },
+  {
+    id: 'wombex-dai-main',
+    logo: 'single-assets/DAI.svg',
+    name: 'Wombat DAI Main (Wombex)',
+    token: 'Wombat LP-DAI',
+    tokenDescription: 'Wombat (Wombex)',
+    tokenAddress: '0x0fa7b744f18d8e8c3d61b64b110f25cc27e73055', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-wombex-dai-main',
+    earnedTokenAddress: '0x43C781241868eE3efd61B1a9c41E488bd7Ef672e', //  vault
+    earnContractAddress: '0x43C781241868eE3efd61B1a9c41E488bd7Ef672e', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'wombex-dai-main',
+    oraclePrice: 0,
+    depositsPaused: true,
+    status: 'active',
+    platform: 'Wombat (Wombex)',
+    assets: ['DAI'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.wombat.exchange/pool?pool=MAIN&token=DAI&action=DEPOSIT',
+  },
+  {
+    id: 'zyberSwap-zyb-weth-gamma-narrow',
+    name: 'ZYB-WETH-Narrow ZyberLP',
+    token: 'ZYB-WETH-Narrow ZyberLP',
+    tokenDescription: 'Zyberswap Gamma',
+    tokenAddress: '0x35ea99ab62Bcf7992136558e94fb97c7807Fcd6a', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-ZYB-WETH-Zyber-Gamma-narrow',
+    earnedTokenAddress: '0x576883da47373519f5e1f4e99f8f3C89C4c692EF', //  vault
+    earnContractAddress: '0x576883da47373519f5e1f4e99f8f3C89C4c692EF', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zyberSwap-zyb-weth-gamma-narrow',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Zyberswap',
+    assets: ['ZYB', 'WETH'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.zyberswap.io/exchange/v3-pool/0x3B475F6f2f41853706afc9Fa6a6b8C5dF1a2724c/ETH',
+  },
+  {
+    id: 'zyberSwap-weth-usdt-gamma-narrow',
+    name: 'WETH-USDT-Narrow ZyberLP',
+    token: 'WETH-USDT-Narrow ZyberLP',
+    tokenDescription: 'Zyberswap Gamma',
+    tokenAddress: '0xEa17b00b9Fc3ecAF1CB24CC1D5C594146C68A4BC', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WETH-USDT-Zyber-Gamma-narrow',
+    earnedTokenAddress: '0x2cfE0d46DFa5DE6f8C7bE42942F01CCD20e227C1', //  vault
+    earnContractAddress: '0x2cfE0d46DFa5DE6f8C7bE42942F01CCD20e227C1', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zyberSwap-weth-usdt-gamma-narrow',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'eol',
+    platform: 'Zyberswap',
+    assets: ['WETH', 'USDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.zyberswap.io/exchange/v3-pool/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9/ETH',
+  },
+  {
+    id: 'zyberSwap-weth-usdc-gamma-narrow',
+    name: 'WETH-USDC-Narrow ZyberLP',
+    token: 'WETH-USDC-Narrow ZyberLP',
+    tokenDescription: 'Zyberswap Gamma',
+    tokenAddress: '0xC2Be9DF80Ce62E4258c27b1FfeF741adC118b8B0', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WETH-USDC-Zyber-Gamma-narrow',
+    earnedTokenAddress: '0x220BDf3eD253f7a19Ed76FD3831BAc1B8f39e32B', //  vault
+    earnContractAddress: '0x220BDf3eD253f7a19Ed76FD3831BAc1B8f39e32B', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zyberSwap-weth-usdc-gamma-narrow',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Zyberswap',
+    assets: ['WETH', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.zyberswap.io/exchange/v3-pool/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8/ETH',
+  },
+  {
+    id: 'zyberSwap-usdt-usdc-gamma-stable',
+    name: 'USDT-USDC-Stable ZyberLP',
+    token: 'USDT-USDC-Stable ZyberLP',
+    tokenDescription: 'Zyberswap Gamma',
+    tokenAddress: '0xD820502864dc8928b40B92e764908A22780A0FfE', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-USDT-USDC-Zyber-Gamma-narrow',
+    earnedTokenAddress: '0xcf2Bd0E3a6114488Fd76b58095a00c5bd94CAD7E', //  vault
+    earnContractAddress: '0xcf2Bd0E3a6114488Fd76b58095a00c5bd94CAD7E', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zyberSwap-usdt-usdc-gamma-stable',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Zyberswap',
+    assets: ['USDT', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.zyberswap.io/exchange/v3-pool/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
+  },
+  {
+    id: 'zyberSwap-wbtc-usdc-gamma-narrow',
+    name: 'WBTC-USDC-Narrow ZyberLP',
+    token: 'WBTC-USDC-Narrow ZyberLP',
+    tokenDescription: 'Zyberswap Gamma',
+    tokenAddress: '0x3B3feC6029534e4E794F0Cfb58CC64cDD66B90C7', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WBTC-USDC-Zyber-Gamma-narrow',
+    earnedTokenAddress: '0xc3eFb8f0D2c09A76d9F030ACA1DBD1293F8941F8', //  vault
+    earnContractAddress: '0xc3eFb8f0D2c09A76d9F030ACA1DBD1293F8941F8', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zyberSwap-wbtc-usdc-gamma-narrow',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Zyberswap',
+    assets: ['WBTC', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.zyberswap.io/exchange/v3-pool/0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
+  },
+  {
+    id: 'zyberSwap-weth-arb-gamma-narrow',
+    name: 'WETH-ARB-Narrow ZyberLP',
+    token: 'WETH-ARB-Narrow ZyberLP',
+    tokenDescription: 'Zyberswap Gamma',
+    tokenAddress: '0xB5C335Cfaf1769eE02597C6aC2db883F793A020D', //  wantToken
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'vapor-WETH-ARB-Zyber-Gamma-narrow',
+    earnedTokenAddress: '0x6aECa1Cf820e89D6F7d2E81111dFDE397776B964', //  vault
+    earnContractAddress: '0x6aECa1Cf820e89D6F7d2E81111dFDE397776B964', //  vault
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zyberSwap-weth-arb-gamma-narrow',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Zyberswap',
+    assets: ['WETH', 'ARB'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.1%',
+    addLiquidityUrl:
+      'https://app.zyberswap.io/exchange/v3-pool/ETH/0x912CE59144191C1204E64559FE8253a0e49E6548',
+  }
   ];
-  
